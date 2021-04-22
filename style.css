@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+
+
+.fi{
+    width: 100%;
+    height: 800px;
+    background-color: green;
+    overflow: hidden;
+}
+.se{
+    width: 100%;
+    height: 70%;
+    background-color: #c96501;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    
+}
+.th{
+    width: 100%;
+    height: 30%;
+    background-color: green;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    
+
+}
+body{
+    overflow: hidden;
+}
+.imd1{
+    width: 250px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    animation-name: inime;
+    animation-duration: 9.5s;
+    animation-iteration-count: infinite;
+}
+.imd2{
+    width: 250px;
+    position: absolute;
+    top:250px;
+    left: 0px;
+    animation-name: inime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes inime {
+    25%{
+        left:130%
+    }
+    60%{
+        transform: rotatey(180deg);
+    }
+    75%
+    {
+        left: -20%;
+    }
+   
+
+    
+}
+
+
+
+
+    
